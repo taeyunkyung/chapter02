@@ -13,7 +13,7 @@ public class Song {
 	public void setArtist(String a) {artist = a;}
 	public void setAlbum(String ab) {album = ab;}
 	public void setComposer(String c) {composer = c;}
-	public void setYear(int y) {year = y;}
+	public void setYear(int y) {year = y;} // String
 	public void setTrack(int tk) {track = tk;}
 	
 	public String getTitle() {return title;}
@@ -26,4 +26,10 @@ public class Song {
 	public void showInfo() {
 		System.out.println(artist+", "+title+" ("+album+", "+year+", "+track+"번 track, "+composer+" 작곡)");
 	}
+	@Override
+	public String toString() { // alt+shift+s generate toString
+		return "Song [title=" + title + ", artist=" + artist + ", album=" + album + ", composer=" + composer + ", year="
+				+ year + ", track=" + track + "]";
+	}
+	
 }

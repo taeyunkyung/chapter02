@@ -5,7 +5,7 @@ public class SongApp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Song iu = new Song();
+		Song iu = new Song(); // Song s1
 		iu.setArtist("아이유");
 		iu.setTitle("좋은날");
 		iu.setAlbum("Real");
@@ -14,7 +14,7 @@ public class SongApp {
 		iu.setComposer("이민수");
 		iu.showInfo();
 		
-		Song bb = new Song();
+		Song bb = new Song(); // Song s2
 		bb.setArtist("BIGBANG");
 		bb.setTitle("거짓말");
 		bb.setAlbum("Always");
@@ -23,7 +23,7 @@ public class SongApp {
 		bb.setComposer("G-DRAGON");
 		bb.showInfo();
 		
-		Song bsk = new Song();
+		Song bsk = new Song(); // Song s3
 		bsk.setArtist("버스커버스커");
 		bsk.setTitle("벚꽃엔딩");
 		bsk.setAlbum("버스커버스커1집");
@@ -31,6 +31,8 @@ public class SongApp {
 		bsk.setTrack(4);
 		bsk.setComposer("장범준");
 		bsk.showInfo();
+		
+		System.out.println(iu.toString());
 	}
 
 }
