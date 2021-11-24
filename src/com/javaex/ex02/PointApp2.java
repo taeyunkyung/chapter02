@@ -13,11 +13,11 @@ public class PointApp2 {
 		Point2 p02 = new Point2();
 		p02.setX(10);
 		p02.setY(23);
-		p02.draw();
+		p02.draw(true);
 		
 		Point2 p03 = new Point2(100);
 		p03.setY(100);
-		p03.draw();
+		p03.draw(false);
 	}
 
 }
