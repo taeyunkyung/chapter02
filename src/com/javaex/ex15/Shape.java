@@ -42,4 +42,5 @@ public class Shape {
 	public void draw() {
 		System.out.println("선색:" + getLineColor() + " 면색:" + getFillColor() + " 도형을 그렸습니다.");
 	}
+	
 }

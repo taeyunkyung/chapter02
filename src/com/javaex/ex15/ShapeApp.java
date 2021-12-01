@@ -19,14 +19,14 @@ public class ShapeApp {
 		sArray[0] = r01;
 		sArray[1] = c01;
 		sArray[2] = t01;
-		
+
 		for (int i = 0; i < sArray.length; i++) {
 			sArray[i].draw();
 		}
 
-		((Rectangle)r01).getHeight();
-		((Circle)c01).getRadius(); // 강제 형변환, 다운캐스팅
-		((Triangle)t01).getWidth();
+		((Rectangle) r01).getHeight();
+		((Circle) c01).getRadius(); // 강제 형변환, 다운캐스팅
+		((Triangle) t01).getWidth();
 	}
 
 }

@@ -1,6 +1,6 @@
 package com.javaex.ex15;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
 
 	// 필드
 	private int radius;
@@ -30,9 +30,9 @@ public class Circle extends Shape{
 		return "Circle [radius=" + radius + ", getLineColor()=" + getLineColor() + ", getFillColor()=" + getFillColor()
 				+ "]";
 	}
-	
+
 	public void draw() {
 		System.out.println("선색:" + getLineColor() + " 면색:" + getFillColor() + " 반지름:" + radius + " 원을 그렸습니다.");
 	}
-	
+
 }
