@@ -11,9 +11,13 @@ public class ArithException {
 
 		Scanner sc = new Scanner(System.in);
 		num = sc.nextInt();
-
-		result = 100 / num;
-		System.out.println(result);
+		
+		if(num!=0) {
+			result = 100 / num;
+			System.out.println(result);
+		} else {
+			System.out.println("0으로 나눌 수 없습니다.");
+		}		
 
 		sc.close();
 	}
